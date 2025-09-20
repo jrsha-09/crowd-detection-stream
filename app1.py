@@ -3,7 +3,7 @@ from flask import Flask, Response
 from ultralytics import YOLO
 
 app = Flask(__name__)
-model = YOLO("yolov8s.pt")  # put in repo or download on start
+model = YOLO("yolo11s.pt")  # put in repo or download on start
 
 VIDEO_PATH = "Shopping_1.mp4"  # change to 0 for webcam
 
@@ -36,3 +36,4 @@ def video_feed():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
