@@ -5,3 +5,4 @@ firebase-admin
 gTTS
 playsound==1.2.2
 gunicorn
+os
